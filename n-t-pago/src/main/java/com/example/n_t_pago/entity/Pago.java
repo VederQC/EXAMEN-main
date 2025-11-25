@@ -4,7 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+
 
 @Entity
 @Table(name = "nt_pagos")
@@ -24,5 +25,5 @@ public class Pago {
     private BigDecimal monto;
 
     @Column(name = "n_t_fecha", nullable = false)
-    private LocalDateTime fecha;
+    private LocalDate fecha;
 }
