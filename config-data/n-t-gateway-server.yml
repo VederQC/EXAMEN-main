@@ -15,6 +15,10 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: n-t-auth
+          uri: lb://n-t-auth
+          predicates:
+              - Path=/auth/**
         - id: n-t-pago
           uri: lb://n-t-pago
           predicates:
