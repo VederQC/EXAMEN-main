@@ -1,0 +1,22 @@
+server:
+  port: 9090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: ms-gateway-server
+
+  cloud:
+    gateway:
+      routes:
+        - id: n-t-pago
+          uri: lb://n-t-pago
+          predicates:
+            - Path=/pago/**
+
