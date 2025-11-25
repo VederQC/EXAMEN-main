@@ -19,4 +19,6 @@ spring:
           uri: lb://n-t-pago
           predicates:
             - Path=/pago/**
+          filters:
+            - AuthFilter
 
