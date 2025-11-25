@@ -10,7 +10,7 @@ eureka:
 
 spring:
   application:
-    name: ms-gateway-server
+    name: n-t-gateway-server
 
   cloud:
     gateway:

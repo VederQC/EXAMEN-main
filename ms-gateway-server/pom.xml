@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>pe.edu.upeu</groupId>
-    <artifactId>ms-gateway-server</artifactId>
+    <artifactId>n-t-gateway-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ms-gateway-server</name>
 

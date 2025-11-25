@@ -2,7 +2,7 @@ server:
   port: 7070
 spring:
   application:
-    name: ms-config-server
+    name: n-t-config-server
   cloud:
     config:
       server:
