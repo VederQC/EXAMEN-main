@@ -19,5 +19,15 @@ spring:
           uri: lb://ms-auth
           predicates:
             - Path=/auth/**
-
-
+        - id: ms-pcge
+          uri: lb://ms-pcge
+          predicates:
+            - Path=/pcge/**
+        - id: ms-operaciones
+          uri: lb://ms-operaciones
+          predicates:
+            - Path=/operaciones/**
+        - id: ms-contabilidad
+          uri: lb://ms-contabilidad
+          predicates:
+            - Path=/asientos/**
