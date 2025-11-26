@@ -1,6 +1,6 @@
 spring:
   application:
-    name: n-t-auth
+    name: ms-auth
   profiles:
     active: development
   config:

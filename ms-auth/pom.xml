@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>pe.upeu</groupId>
-    <artifactId>n-t-auth</artifactId>
+    <artifactId>ms-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>auth-service</name>
     <description>Spring cloud</description>

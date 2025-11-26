@@ -15,14 +15,14 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: n-t-auth
-          uri: lb://n-t-auth
+        - id: ms-auth
+          uri: lb://ms-auth
           predicates:
-              - Path=/auth/**
-        - id: n-t-pago
-          uri: lb://n-t-pago
+            - Path=/auth/**
+        - id:
+          uri: lb://
           predicates:
-            - Path=/pago/**
+            - Path=
           filters:
             - AuthFilter
 
