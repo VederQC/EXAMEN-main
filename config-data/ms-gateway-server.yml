@@ -19,10 +19,5 @@ spring:
           uri: lb://ms-auth
           predicates:
             - Path=/auth/**
-        - id:
-          uri: lb://
-          predicates:
-            - Path=
-          filters:
-            - AuthFilter
+
 
