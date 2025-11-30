@@ -26,7 +26,7 @@ spring:
         - id: ms-operaciones
           uri: lb://ms-operaciones
           predicates:
-            - Path=/operaciones/**
+            - Path=/operaciones/**, /proveedores/**
         - id: ms-contabilidad
           uri: lb://ms-contabilidad
           predicates:
