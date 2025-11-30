@@ -13,7 +13,7 @@ export const UiComponentsRoutes: Routes = [
       },
 
       // 🟢 WALLET
-      {
+     /* {
         path: 'wallet',
         loadComponent: () =>
           import('src/app/pages/ui-components/tables/tables.component').then(
@@ -72,5 +72,7 @@ export const UiComponentsRoutes: Routes = [
           ),
       },
     ],
+    */
   },
+  
 ];
